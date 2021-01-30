@@ -1,70 +1,87 @@
---warning guys don't use this decrypt Script gives you 10 year ban in lobby goto modxpro telegram Channel and use original gg from my Telegram @MODXPRO
 
-
- 
 function setvalue(address,flags,value)  local refinevalues={}  refinevalues[1]={}  refinevalues[1].address=address  refinevalues[1].flags=flags  refinevalues[1].value=value  gg.setValues(refinevalues)  end
 
 function HOME()
-ANIKET = gg.multiChoice({
-"➪ 𝗕𝗔𝗬𝗣𝗔𝗦𝗦 IN LOGO",
-"➪ WALL+COLOR ",
-"➪ BYPASS LOBBY",
-"➪ DELETE DNS.txt",
-"➪ LESS RECOIL ",
-"➪ HEADSHOT +MAGIC ",
-"➪ No Fog + No grass",
+MODXPRO = gg.multiChoice({
+"➪ 𝙱𝚈𝙿𝙰𝚂𝚂 𝙻𝙾𝙶𝙾",
+"➪ 𝙱𝚈𝙿𝙰𝚂𝚂 𝙻𝙾𝙱𝙱𝚈",
+"➪ 𝙰𝙽𝚃𝙸 𝟷𝟶𝙼𝙸𝙽",
+"➪ 𝙰𝙽𝚃𝙸𝙽𝙰 ",
+"➪ 𝚆𝙰𝙻𝙻 & 𝙲𝙻𝚁 𝙷𝙰𝙲𝙺 ",
+"➪ 𝙻𝙴𝚂𝚂 𝚁𝙴𝙲𝙾𝙸𝙻 ",
+"➪ 𝙽𝙾 𝚁𝙴𝙲𝙾𝙸𝙻 ",
+"➪ 𝙰𝙸𝙼𝙱𝙾𝙰𝚃 ",
+"➪ 𝙷𝙴𝙰𝙳𝚂𝙷𝙾𝚃 + 𝙼𝙰𝙶𝙸𝙲 ",
+"➪ 𝙽𝙾 𝙶𝚁𝙰𝚂𝚂&𝙵𝙾𝙶 ",
 "➪ 𝙴𝚇𝙸𝚃 シ",
-}, nil, "• Cᴏᴘʏʀɪɢʜᴛ © 2021 ANIKETHACKS \n Aniket sc V 3.9\n @ANIKETHACKER")
+}, nil, "• Cᴏᴘʏʀɪɢʜᴛ © 2021 @𝙼𝙾𝙳𝚇𝙿𝚁𝙾 \n®𝙳𝙴𝚅𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 @𝙼𝙾𝙳𝚇𝙰𝚂𝙷𝙸𝚂✓")
 
-if ANIKET == nil then
+if MODXPRO == nil then
 else
 
-if ANIKET[1]==  true then
+if MODXPRO[1]==  true then
 LOGO()
 
 end
-if ANIKET[2] == true then
-
-WALL()
-
-end
-
-if ANIKET[3] == true then
+if MODXPRO[2] == true then
 
 ANTIBAN()
 
 end
-if ANIKET[4] == true then
+
+if MODXPRO[3] == true then
 
 FIX10()
+
+end
+
+if MODXPRO[4] == true then
+
+ANTINA()
+end
+if MODXPRO[5] == true then
+
+WALL()
 end
 
 
-if ANIKET[5] == true then
+if MODXPRO[6] == true then
 
 rec()
 
 end
 
-if ANIKET[6] == true then
+if MODXPRO[7] == true then
+
+norecoil()
+
+end
+
+if MODXPRO[8] == true then
+
+aimbot()
+
+end
+
+if MODXPRO[9] == true then
 
 head()
 
 end
 
-if ANIKET[7] == true then
+if MODXPRO[10] == true then
 
 nof()
 
 end
 
-if ANIKET[8] == true then
+if MODXPRO[11] == true then
 
 MO()
 
 end
 
-end--Eʟsᴇ
+end
 
 PUBGMO = -1
 
@@ -84,7 +101,7 @@ os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
 os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
 gg.clearResults()
 gg.sleep(900)
-gg.toast("Fix 10 mint done")
+gg.toast("❄️❄️THANKYOU ❄️❄️")
 end
 
 
@@ -249,8 +266,8 @@ os.remove("src/main/java/com/google/errorprone/annotations")
 os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
 os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
 os.remove("/storage/emulated/0/.profig.os")
-os.remove("/data/user/0/com.tencent.iganiket/data/data/user/0/com.tencent.ig/cache")
-os.remove("/data/user/0/com.tencent.iganiket/data/data/user/0/com.tencent.ig/code_cache")
+os.remove("/data/user/0/com.tencent.igMODXPRO/data/data/user/0/com.tencent.ig/cache")
+os.remove("/data/user/0/com.tencent.igMODXPRO/data/data/user/0/com.tencent.ig/code_cache")
 gg.toast("Cached+dumps files removed")
 gg.clearResults()
 gg.clearResults() 
@@ -439,7 +456,7 @@ gg.setValues({
 		['value'] = 0.1,
 	},
 	})
-gg.alert("ANTIBAN DONE√")
+gg.alert("BYPASSED😘")
 end
 
 function nof()
@@ -449,12 +466,11 @@ setvalue(so+py,16,0)
 so=gg.getRangesList('libUE4.so')[1].start
 py=0x2559FE8
 setvalue(so+py,4,0)
-gg.toast("ɴᴏ ғᴏɢ")
-gg.toast("ɴᴏ ɢʀᴀss ᴀᴄᴛɪᴠᴀᴛᴇᴅ")
+gg.toast("ɴᴏ ғᴏɢ ɢʀᴀss ᴀᴄᴛɪᴠᴀᴛᴇᴅ")
 end
 
 function WALL()
-MN1 = gg.multiChoice({
+MODX1 = gg.multiChoice({
 	"𝙰𝙻𝙻 𝚂𝙳",
     "𝙰𝙻𝙻 𝙳𝙴𝚅𝙸𝙲𝙴 ",
     "𝙵𝙸𝚇 𝙱𝙻𝙸𝙽𝙺",
@@ -484,7 +500,7 @@ MN1 = gg.multiChoice({
     "𝚂𝙽𝙰𝙿𝙳𝚁𝙰𝙶𝙾𝙽 675",
     "𝚂𝙽𝙰𝙿𝙳𝚁𝙰𝙶𝙾𝙽 680",
     "𝚂𝙽𝙰𝙿𝙳𝚁𝙰𝙶𝙾𝙽 710",
-    "𝚂𝙽𝙰𝙿𝙳𝚁𝙰𝙶𝙾𝙽 712",
+    "𝚂𝙽𝙰𝙿𝙳𝚁𝙰𝙶𝙾𝙽 712-720",
     "𝚂𝙽𝙰𝙿𝙳𝚁𝙰𝙶𝙾𝙽 800",
     "𝚂𝙽𝙰𝙿𝙳𝚁𝙰𝙶𝙾𝙽 801",
     "𝚂𝙽𝙰𝙿𝙳𝚁𝙰𝙶𝙾𝙽 805",
@@ -502,148 +518,148 @@ MN1 = gg.multiChoice({
     "COLOR RED",
     "ALL SNAP YELLOW",   
     "Exit"},
- nil,(os.date("Aniket Hacks")))
- if MN1 == nil then
+ nil,(os.date("MODXPRO HACKS")))
+ if MODX1 == nil then
   else
-    if MN1[1] == true then
+    if MODX1[1] == true then
       WHA()
     end
-    if MN1[2] == true then
+    if MODX1[2] == true then
       WHAD()
     end
-    if MN1[3] == true then
+    if MODX1[3] == true then
       WHFB()
     end
-    if MN1[4] == true then
+    if MODX1[4] == true then
       WHFS()
     end
-    if MN1[5] == true then
+    if MODX1[5] == true then
       WH400()
     end
-    if MN1[6] == true then
+    if MODX1[6] == true then
       WH410()
     end
-    if MN1[7] == true then
+    if MODX1[7] == true then
       WH415()
     end
-    if MN1[8] == true then
+    if MODX1[8] == true then
       WH425()
     end
-    if MN1[9] == true then
+    if MODX1[9] == true then
       WH430()
     end
-    if MN1[10] == true then
+    if MODX1[10] == true then
       WH439()
     end
-    if MN1[11] == true then
+    if MODX1[11] == true then
       WH435()
     end
-    if MN1[12] == true then
+    if MODX1[12] == true then
       WH450()
     end
-    if MN1[13] == true then
+    if MODX1[13] == true then
       WH600()
     end
-    if MN1[14] == true then
+    if MODX1[14] == true then
       WH610()
     end
-    if MN1[15] == true then
+    if MODX1[15] == true then
       WH615()
     end
-    if MN1[16] == true then
+    if MODX1[16] == true then
       WH616()
     end
-    if MN1[17] == true then
+    if MODX1[17] == true then
       WH625()
     end
-    if MN1[18] == true then
+    if MODX1[18] == true then
       WH626()
     end
-    if MN1[19] == true then
+    if MODX1[19] == true then
       WH630()
     end
-    if MN1[20] == true then
+    if MODX1[20] == true then
       WH632()
     end
-    if MN1[21] == true then
+    if MODX1[21] == true then
       WH636()
     end
-    if MN1[22] == true then
+    if MODX1[22] == true then
       WH650()
     end
-    if MN1[23] == true then
+    if MODX1[23] == true then
       WH653()
     end
-    if MN1[24] == true then
+    if MODX1[24] == true then
       WH660()
     end
-    if MN1[25] == true then
+    if MODX1[25] == true then
       WH665()
     end
-    if MN1[26] == true then
+    if MODX1[26] == true then
       WH670()
     end
-    if MN1[27] == true then
+    if MODX1[27] == true then
       WH675()
     end
-    if MN1[28] == true then
+    if MODX1[28] == true then
       WH680()
     end
-    if MN1[29] == true then
+    if MODX1[29] == true then
       WH710()
     end
-    if MN1[30] == true then
+    if MODX1[30] == true then
       WH712()
     end
-    if MN1[31] == true then
+    if MODX1[31] == true then
       WH800()
     end
-    if MN1[32] == true then
+    if MODX1[32] == true then
       WH801()
     end
-    if MN1[33] == true then
+    if MODX1[33] == true then
       WH805()
     end
-    if MN1[34] == true then
+    if MODX1[34] == true then
       WH808()
     end
-    if MN1[35] == true then
+    if MODX1[35] == true then
       WH810()
     end
-    if MN1[36] == true then
+    if MODX1[36] == true then
       WH815()
     end
-    if MN1[37] == true then
+    if MODX1[37] == true then
       WH820()
     end
-    if MN1[38] == true then
+    if MODX1[38] == true then
       WH821()
     end
-    if MN1[39] == true then
+    if MODX1[39] == true then
       WH835()
     end
-    if MN1[40] == true then
+    if MODX1[40] == true then
       WH845()
     end
-    if MN1[41] == true then
+    if MODX1[41] == true then
       WH855()
     end
-    if MN1[42] == true then
+    if MODX1[42] == true then
       WH865()
     end
-    if MN1[43] == true then
+    if MODX1[43] == true then
       CLR1()
     end
-    if MN1[44] == true then
+    if MODX1[44] == true then
       CLR2()
     end
-    if MN1[45] == true then
+    if MODX1[45] == true then
       CLR3()
     end
-    if MN1[46] == true then
+    if MODX1[46] == true then
       CLR4()
     end
-    if MN1[47] == true then
+    if MODX1[47] == true then
       HOME()
     end
    end
@@ -683,6 +699,20 @@ gg.getResults(3)
 function CLR3()
 gg.clearResults()
     gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+    gg.clearResults()
+    gg.searchNumber('8,200;1,194,344,481;8,201:9', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber('8200;8201', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(15)
+    gg.editAll('7', gg.TYPE_DWORD)
+    gg.clearResults()
+    gg.toast('👑MODXPRO👑')
+    gg.clearResults()
+    gg.setRanges(131072)
+    gg.searchNumber('8,196D;8,192D;8,200D::', 4, false, 536870912, 0, -1)
+    gg.searchNumber('8200', 4, false, 536870912, 0, -1)
+    gg.getResults(10)
+    gg.editAll('7', 4)
+    gg.clearResults()
     gg.searchNumber("537133071;8200;1194380048:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineAddress("0E8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
@@ -1298,6 +1328,20 @@ function WH710()
 end
 
 function WH712()
+    gg.clearResults()
+    gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+    gg.searchNumber('5.1097599e21;8.2676609e-44;2.0:13', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber('2.0', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineAddress('200', -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(63825)
+    gg.editAll('120', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+    gg.searchNumber('2.0;0.69314718246;0.00999999978:29', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber('2.0', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineAddress('9B0', -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(63825)
+    gg.editAll('120', gg.TYPE_FLOAT)
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("274,677,779D;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -1589,7 +1633,7 @@ os.remove(("/data/data/com.tencent.ig/files/tss_uts_c2.dat"))
 os.remove(("/data/data/com.tencent.ig/files/tss.i.m.dat"))
 os.remove(("/data/data/com.tencent.ig/files/tss_tmp/config2.xml.6dab626b"))
 os.remove(("/data/data/com.tencent.ig/files/tss_tmp/config3.xml"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/mn_cache.dat"))
+os.remove(("/data/data/com.tencent.ig/files/tss_tmp/MODX_cache.dat"))
 os.remove(("/data/data/com.tencent.ig/files/tss_tmp/tss_emu_c2.dat"))
 os.remove(("/data/data/com.tencent.ig/files/tss_tmp/tss.ano2.dat"))
 os.remove(("/storage/emulated/0/tencent/Midas/Log/com.pubg.krmobile/MidasLog.mmap"))
@@ -1667,7 +1711,7 @@ os.remove(("/data/data/com.tencent.ig/files/tss_uts_c2.dat"))
 os.remove(("/data/data/com.tencent.ig/files/tss.i.m.dat"))
 os.remove(("/data/data/com.tencent.ig/files/tss_tmp/config2.xml.6dab626b"))
 os.remove(("/data/data/com.tencent.ig/files/tss_tmp/config3.xml"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/mn_cache.dat"))
+os.remove(("/data/data/com.tencent.ig/files/tss_tmp/MODX_cache.dat"))
 os.remove(("/data/data/com.tencent.ig/files/tss_tmp/tss_emu_c2.dat"))
 os.remove(("/data/data/com.tencent.ig/files/tss_tmp/tss.ano2.dat"))
 os.remove(("/storage/emulated/0/tencent/Midas/Log/com.tencent.ig/MidasLog.mmap"))
@@ -1745,7 +1789,7 @@ os.remove(("/data/data/com.tencent.ig/files/tss_uts_c2.dat"))
 os.remove(("/data/data/com.tencent.ig/files/tss.i.m.dat"))
 os.remove(("/data/data/com.tencent.ig/files/tss_tmp/config2.xml.6dab626b"))
 os.remove(("/data/data/com.tencent.ig/files/tss_tmp/config3.xml"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/mn_cache.dat"))
+os.remove(("/data/data/com.tencent.ig/files/tss_tmp/MODX_cache.dat"))
 os.remove(("/data/data/com.tencent.ig/files/tss_tmp/tss_emu_c2.dat"))
 os.remove(("/data/data/com.tencent.ig/files/tss_tmp/tss.ano2.dat"))
 os.remove(("/storage/emulated/0/tencent/Midas/Log/com.rekoo.pubgm/MidasLog.mmap"))
@@ -1875,7 +1919,7 @@ gg.clearList()
 gg.clearResults()
 gg.clearList()
 gg.clearList()
-gg.alert("Bypass New done")
+gg.alert("🦸🦸🦸 bypass sucessfull by modxpro")
 gg.clearResults()
 gg.clearList()
 gg.clearResults()
@@ -1885,6 +1929,50 @@ os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/Shad
 os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
 os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/cache")
 gg.clearResults() 
+end
+
+function ANTINA ()
+
+gg.clearResults ()
+
+gg.setRanges (gg.REGION_ANONYMOUS)
+
+gg.searchNumber ("88.50576019287F; 87.27782440186F; -100.91194152832F; 1F :: 13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber ("88.50576019287F; 87.27782440186F; 1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults (1000, nil, nil, nil, nil, nil, nil, nil, nil)
+
+gg.editAll ("1.96875; 1.96875; 999; 1.96875; 1.96875; 999", gg.TYPE_FLOAT)
+
+gg.clearResults ()
+
+gg.toast ("ANTINA BY MODXPRO ✓")
+
+end
+
+function aimbot ()
+
+so = gg.getRangesList("libUE4.so")[1].start
+
+py = 39368524
+
+setvalue(so + py, 4, 0)
+
+so = gg.getRangesList("libUE4.so")[1].start
+
+py = 39368832
+
+setvalue(so + py, 4, 1152327680)
+
+so = gg.getRangesList("libUE4.so")[1].start
+
+py = 39368512
+
+setvalue(so + py, 4, 0)
+
+gg.toast ("AIMBOT BY MODXPRO ✓")
+
 end
 
 
@@ -1926,7 +2014,7 @@ gg.setRanges(gg.REGION_BAD)
   gg.getResults(10)
   gg.editAll("250", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("Heashot 100% ✓")
+  gg.toast("Heashot 100% Active")
 end
 
 
@@ -1941,12 +2029,57 @@ py=0x1C113E8
 setvalue(so+py,16,1.40129846e-45)
 end
 
+function nore ()
 
+gg.setRanges(gg.REGION_C_HEAP | gg.REGION_C_DATA | gg.REGION_PPSSPP)
+
+gg.searchNumber("-309056964;-298841599;-309061061:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+gg.refineNumber("-298841599", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+revert = gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)
+
+local t = gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)
+
+for i, v in ipairs(t) do
+
+if v.flags == gg.TYPE_DWORD then
+
+	v.value = "10"
+
+	v.freeze = true
+
+end
+end
+
+gg.addListItems(t)
+
+t = nil
+
+gg.clearList()
+
+gg.clearResults()
+
+so=gg.getRangesList('libUE4.so')[1].start
+
+py=0x381CCE0
+
+setvalue(so+py,4,0)
+
+so=gg.getRangesList('libUE4.so')[1].start
+
+py=0x376E57C
+
+setvalue(so+py,4,0)
+
+gg.toast ("NO RECOIL MODXPRO ✓")
+
+end
 
  
 function MO()
 
-print("\n•  ʙʏᴘᴀss sᴄʀɪᴘᴛ \n• ᴛɢ: t.me/anekhacks\n• Cᴏᴘʏʀɪɢʜᴛ © 2021 Aniket ")
+print("\n THANKS FOR JOINING OUR PRIVATE HACKS \nTG-@MODXPRO \nYT-MODXPRO ")
 
 gg.setVisible(true)
 
@@ -1974,5 +2107,3 @@ end
 end
 
 
-
-  
