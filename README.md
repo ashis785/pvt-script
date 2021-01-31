@@ -1,8 +1,5 @@
-gg.alert("Ｖｅｒｓｉｏｎ : 🚫CRACKWAR PROTECTION V28🚫 ")
 
 gg.toast(" ✅SERVER CONNECTED🥳 ")
-gg.alert( " 🚫CRACKWAR PROTECTION V28🚫 \n\n 🚫🚫∂єѵєłσρєя вy #CRACKWAR_TEAM🚫🚫 \n\n🚫🚫[W̲̲̅̅E̲̲̅̅L̲̲̅̅C̲̲̅̅O̲̲̅̅M̲̲̅̅E̲̲̅̅ ̲̲̅̅T̲̲̅̅O̲̲̅̅ ̲̲̅̅V̲̲̅̅I̲̲̅̅P̲̲̅̅ ̲̅]🚫🚫\n\n cнαททєℓ : @CRACKWAR \n\n ∂єvєℓσρєr : @CRACKWAR_TEAM ")
-gg.alert("CRACKWAR PROTECTION V28 \n\n 🚫🚫Dҽʋҽʅσρҽɾ Bყ #CRACKWAR_TEAM🚫🚫 ")
 
 -- -- -- -- -- -- -- -- -- --  Modify Address Value  -- -- -- -- -- -- -- -- -- -- --
 
@@ -3813,12 +3810,10 @@ end
 -- -- -- -- -- -- -- -- -- -- --   Close   -- -- -- -- -- -- -- -- -- -- --
 
 function CLOSE()
-print ("Ｖｅｒｓｉｏｎ : 🚫CRACKWAR PROTECTION V28🚫 ")
-print ("🚫CRACKWAR PROTECTION V28🚫 \n\n 🚫🚫∂єѵєłσρєя вy #CRACKWAR_TEAM🚫🚫 \n\n🚫🚫[W̲̲̅̅E̲̲̅̅L̲̲̅̅C̲̲̅̅O̲̲̅̅M̲̲̅̅E̲̲̅̅ ̲̲̅̅T̲̲̅̅O̲̲̅̅ ̲̲̅̅V̲̲̅̅I̲̲̅̅P̲̲̅̅ ̲̅]🚫🚫\n\n cнαททєℓ : @CRACKWAR \n\n ∂єvєℓσρєr : @CRACKWAR_TEAM ")
 print (" ")
 print(" 🥰ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ᴏᴜʀ ᴠɪᴘ🥰 ")
 print (" ")
-print ("CRACKWAR PROTECTION V28 \n\n 🚫🚫Dҽʋҽʅσρҽɾ Bყ #CRACKWAR_TEAM🚫🚫 ")
+print (" 🚫MODXPRO PUBG HACKS🚫 ")
 gg.skipRestoreState()
 gg.setVisible(true)
 os.exit()
