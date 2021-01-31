@@ -13,16 +13,16 @@ HOME1 = 1
 BYPDONE = 0
 CMENU = 0
 function HOME()
-LANGHOME = gg.alert("🌐 اختر لغة السكربت \n🇬🇧 Select your language  ", "⟬ عربي 🌐 ⟭", "⟬ 🇬🇧 English ⟭")
+LANGHOME = gg.alert("🌐 اختر لغة السكربت \n🇬🇧 Select your language  ", "⟬ 🇬🇧 English ⟭", "⟬ عربي 🌐 ⟭")
 if LANGHOME == nil then
 else
 if LANGHOME == 1 then
-HOME1()
-CMENU = 1
-end
-if LANGHOME == 2 then
 HOME2()
 CMENU = 2
+end
+if LANGHOME == 2 then
+HOME1()
+CMENU = 1
 end
 end
 PUBGMH = -1
@@ -50,7 +50,7 @@ MN = gg.choice({
 "☠️ 『 خلطة الملا v2 ( تفعيل بالطيارة ) 』 ☠️",
 "🛰️ 『 ترسيت سريع / ᴏɴ - ᴏғғ 』",
 "⛔ 『 خروج 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if MN == nil then else
 if MN == 1 then ABAN() end
 if MN == 2 then BDY() end
@@ -82,7 +82,7 @@ MN2 = gg.choice({
 "☠️ 『 ᴏɴᴇ ᴄʟɪᴄᴋ ғᴜʟʟ ʙʀᴜᴛᴀʟ v2 [ᴘʟᴀɴᴇ] 』 ☠️",
 "🛰️ 『 ᴅᴀᴛᴀ ᴏɴ - ᴏғғ ғᴀsᴛ 』",
 "⛔ 『 ᴇ x ɪ ᴛ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if MN2 == nil then else
 if MN2 == 1 then ABAN2() end
 if MN2 == 2 then BDY2() end
@@ -185,7 +185,7 @@ TENMINMN = gg.choice({
 "⚙️⁩ 『 حماية لوبي لجميع النسخ v2 ( لوبي ) 』",
 "⚙️⁩ 『 حماية لوبي لجميع النسخ v3 ( لوبي ) 』",
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if TENMINMN == nil then else
 if TENMINMN == 1 then AABANGL1() end
 if TENMINMN == 2 then AABANGL2() end
@@ -201,7 +201,7 @@ TENMIN2MN = gg.choice({
 "⚙️⁩ 『 ᴀɴᴛɪʙᴀɴ ᴀʟʟ ᴠᴇʀsɪᴏɴs v2 ( ʟᴏʙʙʏ ) 』",
 "⚙️⁩ 『 ᴀɴᴛɪʙᴀɴ ᴀʟʟ ᴠᴇʀsɪᴏɴs v3 ( ʟᴏʙʙʏ ) 』",
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if TENMIN2MN == nil then else
 if TENMIN2MN == 1 then AABANGL1() end
 if TENMIN2MN == 2 then AABANGL2() end
@@ -951,7 +951,7 @@ BDYMN = gg.choice({
 "🌫️ 『 إزالة الضباب من الجو 』",
 "🌌 『 لون ضباب أزرق 』",
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if BDYMN == nil then else
 if BDYMN == 1 then WH() end
 if BDYMN == 2 then CLR() end
@@ -981,7 +981,7 @@ BDYMN2 = gg.choice({
 "🌫️ 『 ʀᴇᴍᴏᴠᴇ ғᴏɢ 』",
 "🌌 『 ʙʟᴜᴇ ғᴏɢ 』",
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if BDYMN2 == nil then else
 if BDYMN2 == 1 then WH2() end
 if BDYMN2 == 2 then CLR2() end
@@ -1150,7 +1150,7 @@ WHMN = gg.choice({
 "🛠️ 『 إصلاح التقطيع 430-835 』",
 "🛠️ 『 إصلاح التقطيع 845-855 』",
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if WHMN == nil then else
 if WHMN == 1 then WH425() end
 if WHMN == 2 then WH430() end
@@ -1200,7 +1200,7 @@ WHMN2 = gg.choice({
 "🛠️ 『 ғɪx ʙʟɪɴᴋ 430-835 』",
 "🛠️ 『 ғɪx ʙʟɪɴᴋ 845-855 』",
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if WHMN2 == nil then else
 if WHMN2 == 1 then WH425() end
 if WHMN2 == 2 then WH430() end
@@ -1878,7 +1878,7 @@ CLRMN425 = gg.choice({
 "🔴 『 لون أحمر  425 』",
 "☣️ 『 لون أصفر  425 』",
 "➡️ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if CLRMN425 == nil then else
 if CLRMN425 == 1 then RED425() end
 if CLRMN425 == 2 then YELL425() end
@@ -1892,7 +1892,7 @@ CLRMN4252 = gg.choice({
 "🔴 『 ʀᴇᴅ ʙᴏᴅʏ 425 』",
 "☣️ 『 ʏᴇʟʟᴏᴡ ʙᴏᴅʏ 425 』",
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if CLRMN4252 == nil then else
 if CLRMN4252 == 1 then RED425() end
 if CLRMN4252 == 2 then YELL425() end
@@ -1943,7 +1943,7 @@ CLRMN675 = gg.choice({
 "🔵 『 لون أزرق  675 』"..clrblue675,
 "♎ 『 لون أخضر  675 』"..clrgreen675,
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if CLRMN675 == nil then else
 if CLRMN675 == 1 then WHITE675() end
 if CLRMN675 == 2 then BLUE675() end
@@ -1959,7 +1959,7 @@ CLRMN6752 = gg.choice({
 "🔵 『 ʙʟᴜᴇ ʙᴏᴅʏ 675 』"..clrblue675,
 "♎ 『 ɢʀᴇᴇɴ ʙᴏᴅʏ 675 』"..clrgreen675,
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if CLRMN6752 == nil then else
 if CLRMN6752 == 1 then WHITE675() end
 if CLRMN6752 == 2 then BLUE675() end
@@ -2042,7 +2042,7 @@ CLRMN845 = gg.choice({
 "♎ 『 لون أخضر  845 』"..clrgreen845,
 "🔵 『 لون أزرق  845 』"..clrblue845,
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if CLRMN845 == nil then else
 if CLRMN845 == 1 then RED845() end
 if CLRMN845 == 2 then YELL845() end
@@ -2060,7 +2060,7 @@ CLRMN8452 = gg.choice({
 "♎ 『 ɢʀᴇᴇɴ ʙᴏᴅʏ 845 』"..clrgreen845,
 "🔵 『 ʙʟᴜᴇ ʙᴏᴅʏ 845 』"..clrblue845,
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if CLRMN8452 == nil then else
 if CLRMN8452 == 1 then RED845() end
 if CLRMN8452 == 2 then YELL845() end
@@ -2160,7 +2160,7 @@ CLRMN855 = gg.choice({
 "🔵 『 لون أزرق  855 』"..clrblue845,
 "🔴 『 لون أحمر  855 』"..clrred845,
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if CLRMN855 == nil then else
 if CLRMN855 == 1 then GREEN845() end
 if CLRMN855 == 2 then YELL845() end
@@ -2178,7 +2178,7 @@ CLRMN8552 = gg.choice({
 "🔵 『 ʙʟᴜᴇ ʙᴏᴅʏ 855 』"..clrblue845,
 "🔴 『 ʀᴇᴅ ʙᴏᴅʏ 855 』"..clrred845,
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if CLRMN8552 == nil then else
 if CLRMN8552 == 1 then GREEN845() end
 if CLRMN8552 == 2 then YELL845() end
@@ -2203,7 +2203,7 @@ CLRMN865 = gg.choice({
 "🧶 『 لون وردي 865 』"..clrpink865,
 "🍊 『 لون برتقالي 865 』"..clrorange865,
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if CLRMN865 == nil then else
 if CLRMN865 == 1 then YELL865() end
 if CLRMN865 == 2 then GREEN865() end
@@ -2221,7 +2221,7 @@ CLRMN8652 = gg.choice({
 "🧶 『 ᴘɪɴᴋ ʙᴏᴅʏ 865 』"..clrpink865,
 "🍊 『 ᴏʀᴀɴɢᴇ ʙᴏᴅʏ 865 』"..clrorange865,
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if CLRMN8652 == nil then else
 if CLRMN8652 == 1 then YELL865() end
 if CLRMN8652 == 2 then GREEN865() end
@@ -2339,7 +2339,7 @@ CLRMN = gg.choice({
 "⚪ 『 لون أبيض لجميع الأجهزة 』"..clrwhiteall,
 "⚫ 『 لون أسود لجميع الأجهزة 』",
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if CLRMN == nil then else
 if CLRMN == 1 then CLR425() end
 if CLRMN == 2 then CLR675() end
@@ -2375,7 +2375,7 @@ CLRMN2 = gg.choice({
 "⚪ 『 ᴡʜɪᴛᴇ ʙᴏᴅʏ ᴀʟʟ 』"..clrwhiteall,
 "⚫ 『 ʙʟᴀᴄᴋ ʙᴏᴅʏ ᴀʟʟ 』",
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if CLRMN2 == nil then else
 if CLRMN2 == 1 then CLR4252() end
 if CLRMN2 == 2 then CLR6752() end
@@ -2586,7 +2586,7 @@ WEP1NMN = gg.choice({
 "⬆️ 『 ستاند سكوب 』 ☠️"..standscoppp,
 "📂 『 قائمة تكبير السكوب 』",
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if WEP1NMN == nil then else
 if WEP1NMN == 1 then HEADMN1() end
 if WEP1NMN == 2 then NORECMN1() end
@@ -2618,7 +2618,7 @@ WEP2MN = gg.choice({
 "⬆️ 『 ꜱᴛᴀɴᴅ ꜱᴄᴏᴘᴇ 』 ☠️"..standscoppp,
 "📂 『 ᴢᴏᴏᴍ sᴄᴏᴘᴇs ᴍᴇɴᴜ 』",
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if WEP2MN == nil then else
 if WEP2MN == 1 then HEADMN2() end
 if WEP2MN == 2 then NORECMN2() end
@@ -2826,7 +2826,7 @@ HEADMN1NMN = gg.choice({
 "☄️ 『 ماجك بوليت 』",
 "🔥 『 ماجك بوليت v2 』",
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if HEADMN1NMN == nil then else
 if HEADMN1NMN == 1 then HSHOT100() end
 if HEADMN1NMN == 2 then HSHOT95() end
@@ -2848,7 +2848,7 @@ HEADMN2NMN = gg.choice({
 "☄️ 『 ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ 』",
 "🔥 『 ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ v2 』",
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if HEADMN2NMN == nil then else
 if HEADMN2NMN == 1 then HSHOT100() end
 if HEADMN2NMN == 2 then HSHOT95() end
@@ -3275,7 +3275,7 @@ NORECMN1NMN = gg.multiChoice({
 "⚙️ 『 منع إهتزاز السلاح 』",
 "💢 『 تصغير مؤشر التصويب 』",
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if NORECMN1NMN == nil then else
 if NORECMN1NMN [1] == true then NOREC100() end
 if NORECMN1NMN [2] == true then LESSREC1() end
@@ -3295,7 +3295,7 @@ NORECMN2NMN = gg.multiChoice({
 "⚙️ 『 ᴀɴᴛɪ sʜᴀᴋᴇ 』",
 "💢 『 sᴍᴀʟʟ ᴄʀᴏssʜᴀɪʀ 』",
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if NORECMN2NMN == nil then else
 if NORECMN2NMN [1] == true then NOREC100() end
 if NORECMN2NMN [2] == true then LESSREC1() end
@@ -3381,7 +3381,7 @@ SCOP1NMN = gg.choice({
 "🔭 『 تكبير الريد دوت / هولو x8 』"..zoomx8,
 "🔭 『 تكبير الريد دوت / هولو x15 』"..zoomx15,
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if SCOP1NMN == nil then else
 if SCOP1NMN == 1 then ZOOM4() end
 if SCOP1NMN == 2 then ZOOM8() end
@@ -3397,7 +3397,7 @@ SCOP2NMN = gg.choice({
 "🔭 『 ʀᴇᴅ ᴅᴏᴛ / ʜᴏʟᴏ ᴢᴏᴏᴍ 8x 』"..zoomx8,
 "🔭 『 ʀᴇᴅ ᴅᴏᴛ / ʜᴏʟᴏ ᴢᴏᴏᴍ 15x 』"..zoomx15,
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if SCOP2NMN == nil then else
 if SCOP2NMN == 1 then ZOOM4() end
 if SCOP2NMN == 2 then ZOOM8() end
@@ -3502,7 +3502,7 @@ SPD1NMN = gg.choice({
 "?? 『 تسريع الجيب 』"..speedjeep,
 "🚗 『 تسريع الداسيا 』"..speeddacia,
 "⁦➡️⁩ 『 رجوع 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if SPD1NMN == nil then else
 if SPD1NMN == 1 then FRONTJUMPON() end
 if SPD1NMN == 2 then UNLIMITEDFUEL() end
@@ -3536,7 +3536,7 @@ SPD2NMN = gg.choice({
 "🚙 『 sᴘᴇᴇᴅ ᴊᴇᴇᴘ 』"..speedjeep,
 "🚗 『 sᴘᴇᴇᴅ ᴅᴀᴄɪᴀ 』"..speeddacia,
 "⬅️ 『 ʙ ᴀ ᴄ ᴋ 』",
-  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n ♔🔸〘😈CRACKWAR 😈〙🔸♔\n🔸 Telegram ⟮ @CRACKWAR ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
+  }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\nTG - @MODXPRO \n DEV: @MODXASHIS╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if SPD2NMN == nil then else
 if SPD2NMN == 1 then FRONTJUMPON() end
 if SPD2NMN == 2 then UNLIMITEDFUEL() end
